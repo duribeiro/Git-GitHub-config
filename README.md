@@ -53,7 +53,8 @@ git config --list
 ## Adicionando uma chave SSH
 
 Neste passo, vamos aprender como adicionar uma chave SSH à sua conta do GitHub , o que vai te permitir fazer pushes e pulls sem ter que ficar digitando usuário e senha toda vez.
+Dê uma olhada na documentação oficial do GitHub Sobre isso.
 
-
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 
