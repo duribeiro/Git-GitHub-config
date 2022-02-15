@@ -94,6 +94,8 @@ Agora você deve adicionar sua chave privada SSH ao ssh-agent . Para isso execut
 ssh-add ~/.ssh/id_rsa
 ```
 
+> Caso encontre o erro `WARNING: UNPROTECTED PRIVATE KEY FILE!` redefina as permissões da chave para o padrão com o comando a seguir: `sudo chmod 600 ~/.ssh/id_rsa; sudo chmod 600 ~/.ssh/id_rsa.pub`
+
 ### Adicionando a chave SSH a sua conta do GitHub
 
 Ao execultar o comando abaixo o terminal exibirá sua chave SSH. Você deve copiá-la. \
