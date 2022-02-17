@@ -121,3 +121,17 @@ Navegue até a pasta do seu repositório e siga os seguintes passos:
 - Crie um arquivo README.md para inserir as informações sobre o projeto que tem na pasta.
 - Adicione o arquivo ao stage com o comando `git add .` ou `git add <nome-do-arquivo>`.
 - Insira um breve comentário informando do que se trata o arquivo usando `git commit -m "Iniciando o projeto"`
+
+## Linkando com repositório remoto
+
+Entre na sua conta do github e crie um [novo repositório](https://github.com/new) publico./
+Para conectar com seu repositório local siga os seguintes passos:
+- Após criar um novo repositório no GitHub clique no botão de SSH e copie a url do repositório.
+- Vá até a sua pasta e no teminal use o comando `git remote add origin <url-do-repositorio>`.
+- Verifique se tudo está certo com sua URL remota utilizando o comando `git remote -v`.
+- Seu terminal deve conter algo similar a isso:
+```
+origin  git@github.com:<user-name>/<repository-name>.git (fetch)
+origin  git@github.com:<user-name>/<repository-name>.git (push)
+```
+
