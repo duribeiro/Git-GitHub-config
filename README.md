@@ -113,3 +113,11 @@ Entre no seu GitHub e siga os passos abaixo:
 - Cole sua chave dentro do campo **Key** ;
 - Clique em **Add SSH key** ;
 - Caso seja solicitado, confirme sua senha do Github.
+
+## Seu repositório
+
+Navegue até a pasta do seu repositório e siga os seguintes passos:
+- Digite o seguinte comando `git init`, pronto o git já foi iniciado na pasta atual.
+- Crie um arquivo README.md para inserir as informações sobre o projeto que tem na pasta.
+- Adicione o arquivo ao stage com o comando `git add .` ou `git add <nome-do-arquivo>`.
+- Insira um breve comentário informando do que se trata o arquivo usando `git commit -m "Iniciando o projeto"`
